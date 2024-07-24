@@ -1,0 +1,26 @@
+.header{
+    @apply text-center  text-2xl md:text-3xl font-bold xl:text-3xl text-blue-950
+}
+
+.add-form{
+    @apply   mt-5 mx-[5%] sm:mx-[15%] md:mx-[20%] lg:mx-[25%] xl:mx-[30%]
+}
+.formfield{@apply flex flex-col px-[5%]}
+
+.formfield .label{
+    @apply text-2xl text-teal-950 font-bold 
+}
+
+.formfield .inputarea{
+    @apply border border-black  p-2 mt-2 text-lg md:text-xl lg:text-2xl
+}
+
+.formfield .submit-btn{
+    @apply mt-5 text-xl font-bold p-2 bg-blue-950 text-white rounded
+}
+
+
+
+.error-msg{
+    @apply text-red-900 font-semibold md:text-lg lg:text-xl
+}

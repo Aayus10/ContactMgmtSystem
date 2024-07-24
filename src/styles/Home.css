@@ -1,0 +1,32 @@
+.navbar{
+    @apply flex-row lg:flex  font-bold bg-white py-4
+}
+
+.navbar .title{
+    @apply text-2xl md:text-2xl text-center lg:w-8/12 xl:w-9/12 lg:text-2xl xl:text-4xl
+}
+
+.buttons{
+   @apply mt-5 flex justify-center lg:justify-evenly gap-1 lg:gap-0 lg:w-4/12 xl:w-3/12 lg:mt-0
+}
+
+.buttons .home-btns{
+    @apply w-max  px-5 lg:px-3   bg-teal-800 py-1 text-sm md:text-lg lg:text-base xl:text-xl lg:my-0 rounded-xl font-bold text-white
+
+}
+
+.contact-title{
+    @apply text-center pl-10 text-2xl font-bold xl:text-3xl text-blue-950
+}
+
+.contact-list{
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:text-left ml-[7%] lg:ml-[4%] text-center 
+}
+
+.contact-list .name{
+    @apply   text-xl xl:text-2xl  font-bold font-sans text-teal-950
+}
+
+.contact-list .details{
+    @apply text-xl xl:text-2xl  font-serif 
+}
